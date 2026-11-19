@@ -1,0 +1,23 @@
+{
+  "name": "nexus-kh-telegram-miniapp",
+  "version": "1.0.0",
+  "description": "NEXUS KH — Telegram Digital Store & Rewards Mini App linked with Telegram Bot",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "telegram",
+    "mini-app",
+    "telegram-bot",
+    "grammy",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "grammy": "^1.41.1"
+  }
+}
